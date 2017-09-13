@@ -4,46 +4,54 @@ highlighter: rouge
 redcarpet:
   extensions: [ "no_intra_emphasis", "fenced_code_blocks", disable_indented_code_blocks, "autolink", "tables", "with_toc_data" ]
 
-title: EN0572
+title: KF5010
 subtitle: Operating systems and concurrency
 authors: Michael Brockway, David Kendall, Alun Moon
-copyyear: 2015-2016
-url: http://hesabu.net/en0572
-raurl: http://hesabu.net/en0572/assets/ra
-rraurl: http://cgweb1.northumbria.ac.uk/SubjectAreaResources/en0572/assets/ra
+copyyear: 2015-2017
+url: http://hesabu.net/kf5010
+raurl: http://hesabu.net/kf5010/assets/ra
+rraurl: http://cgweb1.northumbria.ac.uk/SubjectAreaResources/kf5010/assets/ra
 #url: http://localhost:4000
 #raurl: http://localhost:4000/assets/ra
 
 lab_links:
-  - title: Lab 2 - Blinky
+  - title: Lab 1
+    url: L01.html
+  - title: Lab 2
     url: L02.html
-    rep: blinky
-  - title: Lab 3 - Buttons
+    #rep: blinky
+  - title: Lab 3
     url: L03.html
-    rep: buttons
-  - title: Lab 4 - Interrupt
+    #rep: buttons
+  - title: Lab 4
     url: L04.html
-    rep: interrupt
-  - title: Lab 5 - uCOS-II / Tasks
+    #rep: interrupt
+  - title: Lab 5
     url: L05.html
-    rep: tasks
-  - title: Lab 6 - uCOS-II / Mutual Exclusion
+    #rep: tasks
+  - title: Lab 6
     url: L06.html
-    rep: peterson
-  - title: Lab 7 - uCOS-II / Semaphores
+    #rep: peterson
+  - title: Lab 7
     url: L07.html
-    rep: semaphore
-  - title: Lab 8 - uCOS-II / Ring Buffer
+    #rep: semaphore
+  - title: Lab 8
     url: L08.html
-    rep: ringbuffer
-  - title: Lab 9 - uCOS-II / Deadlock and starvation
+    #rep: ringbuffer
+  - title: Lab 9
     url: L09.html
-    rep: deadlock
-  
+    #rep: deadlock
+  - title: Lab 10
+    url: L10.html
+    #rep: deadlock
+  - title: Lab 11
+    url: L11.html
+    #rep: deadlock
+
 
 right_links:
   - title: View on GitHub
-    url: https://github.com/davidkendall/en0572
+    url: https://github.com/davidkendall/kf5010
 
-repo: https://github.com/davidkendall/en0572
+repo: https://github.com/davidkendall/kf5010
 
