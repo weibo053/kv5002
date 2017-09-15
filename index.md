@@ -114,8 +114,8 @@ change during the course of the module.
 **3** | 02-Oct &nbsp; | [Process scheduling]({{site.raurl}}/A03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Linux processes]({{site.raurl}}/B03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Writing shell scripts](L03.html)
 **4** | 09-Oct &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [POSIX Threads: create, yield, exit, join]({{site.raurl}}/B04.pdf) &nbsp; | [Shell functions. Working with processes](L04.html)
 **5** | 16-Oct &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A05.pdf) &nbsp; | [Interference, Race Conditions, Mutual Exclusion]({{site.raurl}}/B05.pdf) &nbsp; | [Using the POSIX Threads API: create, yield, exit, join](L05.html)
-**6** | 23-Oct &nbsp; | [Memory management&nbsp;3]({{site.raurl}}/A06.pdf) &nbsp; | [POSIX semaphores]({{site.raurl}}/B06.pdf) &nbsp; | [Mutual exclusion - busy waiting](L06.html)
-**7** | 30-Oct &nbsp; | [Storage management&nbsp;1]({{site.raurl}}/A07.pdf) &nbsp; | [Classical problems of synchronisation: producer/consumer, readers/writers]({{site.raurl}}/B07.pdf) &nbsp; | [Mutual exclusion - semaphores](L07.html) <br/> Introduction to the assignment
+**6** | 23-Oct &nbsp; | [Memory management&nbsp;3]({{site.raurl}}/A06.pdf) &nbsp; | [POSIX semaphores]({{site.raurl}}/B06.pdf) &nbsp; | [Mutual exclusion - Busy Waiting](L06.html)
+**7** | 30-Oct &nbsp; | [Storage management&nbsp;1]({{site.raurl}}/A07.pdf) &nbsp; | [Classical problems of synchronisation: producer/consumer, readers/writers]({{site.raurl}}/B07.pdf) &nbsp; | [Mutual exclusion - Semaphores](L07.html) <br/> Introduction to the assignment
 **8** | 06-Nov &nbsp; | [Storage management&nbsp;2]({{site.raurl}}/A08.pdf) &nbsp; | [Deadlock, Starvation]({{site.raurl}}/B08.pdf) &nbsp; | [Ring buffer](L08.html)
 **9** | 13-Nov &nbsp; | [Protection and security&nbsp;1]({{site.raurl}}/A09.pdf) &nbsp; | [Priority inversion, mutexes]({{site.raurl}}/B09.pdf) &nbsp; | [Deadlock and starvation](L09.html)
 **10** | 20-Nov &nbsp; | [Protection and security&nbsp;2]({{site.raurl}}/A10.pdf) &nbsp; | [Monitors]({{site.raurl}}/B10.pdf) &nbsp; | Assignment support
@@ -142,7 +142,7 @@ the module; students will be required to:
   + to report on possible extensions to, and issues raised by, their work,
   + and to discuss relevant underlying OS theory. <br/> <br/>
 
-<a class="btn btn-large btn-primary" href="{{site.raurl}}/assgn.pdf"><i class="icon-upload-alt"></i>Download Assignment Specification</a>
+<!--<a class="btn btn-large btn-primary" href="{{site.raurl}}/assgn.pdf"><i class="icon-upload-alt"></i>Download Assignment Specification</a>-->
 
 Formative assessment comprises a variety of theoretical and practical
 exercises with opportunities for discussion with tutors and
