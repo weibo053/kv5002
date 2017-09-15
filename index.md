@@ -194,8 +194,6 @@ An online course on C Programming from the University of Strathclyde.
   - [Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/index.htm) <br/> A detailed introduction to C from the MIT Open Courseware catalogue. If you skip the material on data structures and concurrency, you're left
 with a good basic introduction to C. The data structures and concurrency
 sections cover more advanced material.
-  - [ARM Product Manuals](http://www.keil.com/arm/man/arm.htm) <br/>
-A jumping off point for references to the ARM development tools: compiler, assembler, linker, debugger etc.
 * **Git** 
   - [Git home page](https://git-scm.com)
   - [Git official documentation](https://git-scm.com/doc)
