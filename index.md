@@ -104,7 +104,7 @@ programming techniques.
 
 The following is a *provisional* guide to the organisation of
 this part of the module for this year. These arrangements are subject to
-change during the course of the module. 
+change during the course of the module.
 
 
 | Week   | W/c   | Lecture A   | Lecture B   | Practical   |
@@ -112,9 +112,9 @@ change during the course of the module.
 **1** | 18-Sep &nbsp; | [Introduction and overview]({{site.raurl}}/A01.pdf) &nbsp; | [Introduction to Unix/Linux. Linux Command Line]({{site.raurl}}/B01.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.raurl}}/TLCL.pdf)| [Introduction to Lab environment and tools](L01.html)
 **2** | 25-Sep &nbsp; | [Process concept]({{site.raurl}}/A02.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 4](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)| [Shell scripts]({{site.raurl}}/B02.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 24, 25, 27]({{site.raurl}}/TLCL.pdf)| [Learning the Linux command line](L02.html)
 **3** | 02-Oct &nbsp; | [Process scheduling]({{site.raurl}}/A03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Linux processes]({{site.raurl}}/B03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Writing shell scripts](L03.html)
-**4** | 09-Oct &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [POSIX Threads: create, yield, exit, join]({{site.raurl}}/B04.pdf) &nbsp; | [Shell functions. Working with processes](L04.html)
-**5** | 16-Oct &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A05.pdf) &nbsp; | [Interference, Race Conditions, Mutual Exclusion]({{site.raurl}}/B05.pdf) &nbsp; | [Using the POSIX Threads API: create, yield, exit, join](L05.html)
-**6** | 23-Oct &nbsp; | [Memory management&nbsp;3]({{site.raurl}}/A06.pdf) &nbsp; | [POSIX semaphores]({{site.raurl}}/B06.pdf) &nbsp; | [Mutual exclusion - Busy Waiting](L06.html)
+**4** | 09-Oct &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [POSIX Threads: create, exit, join, self]({{site.raurl}}/B04.pdf) &nbsp; | [Shell functions. Working with processes](L04.html)
+**5** | 16-Oct &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A05.pdf) &nbsp; | [Interference, Race Conditions, Mutual Exclusion]({{site.raurl}}/B05.pdf) &nbsp; | [Using the POSIX Threads API: create, exit, join, self](L05.html)
+**6** | 23-Oct &nbsp; | [Memory management&nbsp;3]({{site.raurl}}/A06.pdf) &nbsp; | [POSIX semaphores]({{site.raurl}}/B06.pdf) &nbsp; | [Mutual exclusion (Busy Waiting), Speedup](L06.html)
 **7** | 30-Oct &nbsp; | [Storage management&nbsp;1]({{site.raurl}}/A07.pdf) &nbsp; | [Classical problems of synchronisation: producer/consumer, readers/writers]({{site.raurl}}/B07.pdf) &nbsp; | [Mutual exclusion - Semaphores](L07.html) <br/> Introduction to the assignment
 **8** | 06-Nov &nbsp; | [Storage management&nbsp;2]({{site.raurl}}/A08.pdf) &nbsp; | [Deadlock, Starvation]({{site.raurl}}/B08.pdf) &nbsp; | [Ring buffer](L08.html)
 **9** | 13-Nov &nbsp; | [Protection and security&nbsp;1]({{site.raurl}}/A09.pdf) &nbsp; | [Priority inversion, mutexes]({{site.raurl}}/B09.pdf) &nbsp; | [Deadlock and starvation](L09.html)
@@ -194,7 +194,7 @@ An online course on C Programming from the University of Strathclyde.
   - [Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/index.htm) <br/> A detailed introduction to C from the MIT Open Courseware catalogue. If you skip the material on data structures and concurrency, you're left
 with a good basic introduction to C. The data structures and concurrency
 sections cover more advanced material.
-* **Git** 
+* **Git**
   - [Git home page](https://git-scm.com)
   - [Git official documentation](https://git-scm.com/doc)
   - [Good resources for learning Git and Github](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
