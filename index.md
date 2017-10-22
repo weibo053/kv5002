@@ -112,13 +112,13 @@ change during the course of the module.
 **1** | 18-Sep &nbsp; | [Introduction and overview]({{site.raurl}}/A01.pdf) &nbsp; | [Introduction to Unix/Linux. Linux Command Line]({{site.raurl}}/B01.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.raurl}}/TLCL.pdf)| [Introduction to Lab environment and tools](L01.html)
 **2** | 25-Sep &nbsp; | [Process concept]({{site.raurl}}/A02.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 4](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)| [Shell scripts]({{site.raurl}}/B02.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 24, 25, 27]({{site.raurl}}/TLCL.pdf)| [Learning the Linux command line](L02.html)
 **3** | 02-Oct &nbsp; | [Process scheduling]({{site.raurl}}/A03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Linux processes]({{site.raurl}}/B03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Writing shell scripts](L03.html)
-**4** | 09-Oct &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [POSIX Threads: create, exit, join, self]({{site.raurl}}/B04.pdf) &nbsp; | [Shell functions. Working with processes](L04.html)
-**5** | 16-Oct &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A05.pdf) &nbsp; | [Interference, Race Conditions, Mutual Exclusion]({{site.raurl}}/B05.pdf) &nbsp; | [Using the POSIX Threads API: create, exit, join, self](L05.html)
-**6** | 23-Oct &nbsp; | [Memory management&nbsp;3]({{site.raurl}}/A06.pdf) &nbsp; | [POSIX semaphores]({{site.raurl}}/B06.pdf) &nbsp; | [Mutual exclusion (Busy Waiting), Speedup](L06.html)
-**7** | 30-Oct &nbsp; | [Storage management&nbsp;1]({{site.raurl}}/A07.pdf) &nbsp; | [Classical problems of synchronisation: producer/consumer, readers/writers]({{site.raurl}}/B07.pdf) &nbsp; | [Mutual exclusion - Semaphores](L07.html) <br/> Introduction to the assignment
-**8** | 06-Nov &nbsp; | [Storage management&nbsp;2]({{site.raurl}}/A08.pdf) &nbsp; | [Deadlock, Starvation]({{site.raurl}}/B08.pdf) &nbsp; | [Ring buffer](L08.html)
-**9** | 13-Nov &nbsp; | [Protection and security&nbsp;1]({{site.raurl}}/A09.pdf) &nbsp; | [Priority inversion, mutexes]({{site.raurl}}/B09.pdf) &nbsp; | [Deadlock and starvation](L09.html)
-**10** | 20-Nov &nbsp; | [Protection and security&nbsp;2]({{site.raurl}}/A10.pdf) &nbsp; | [Monitors]({{site.raurl}}/B10.pdf) &nbsp; | Assignment support
+**4** | 09-Oct &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [POSIX Threads: create, exit, join, self]({{site.raurl}}/B04.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 27.1-27.2](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [Shell functions. Working with processes](L04.html)
+**5** | 16-Oct &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A05.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 15](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf) | [Interference, Race Conditions, Mutual Exclusion]({{site.raurl}}/B05.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 26](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf) | [Using the POSIX Threads API: create, exit, join, self](L05.html)
+**6** | 23-Oct &nbsp; | [Memory management&nbsp;3]({{site.raurl}}/A06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 15](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf)| [POSIX semaphores]({{site.raurl}}/B06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 31](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf) | [Mutual exclusion (Busy Waiting), Speedup](L06.html)
+**7** | 30-Oct &nbsp; | [Storage management&nbsp;1]({{site.raurl}}/A07.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 39](http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) | [Classical problems of synchronisation: producer/consumer, readers/writers]({{site.raurl}}/B07.pdf) &nbsp; <br/> Reading: [SGG13 Chp. 5.7]| [Mutual exclusion (Semaphores), Amdahl's Law](L07.html) <br/> Introduction to the assignment
+**8** | 06-Nov &nbsp; | [Storage management&nbsp;2]({{site.raurl}}/A08.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 40](http://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf) | [Monitors with Mutexes and Condition Variables]({{site.raurl}}/B08.pdf) &nbsp; <br/> Reading: [SGG13 Chp. 5.8] | [Semaphores for synchronisation](L08.html)
+**9** | 13-Nov &nbsp; | [Protection and security&nbsp;1]({{site.raurl}}/A09.pdf) &nbsp; | [Deadlock, Starvation]({{site.raurl}}/B09.pdf) &nbsp; | [Monitors for synchronisation](L09.html)
+**10** | 20-Nov &nbsp; | [Protection and security&nbsp;2]({{site.raurl}}/A10.pdf) &nbsp; | [Thread scheduling, Priority inversion]({{site.raurl}}/B10.pdf) &nbsp; | [Deadlock and starvation](L10.html)
 **11** | 27-Nov &nbsp; | [Inside the Linux Kernel]({{site.raurl}}/A11.pdf) &nbsp; | [Dynamic memory management]({{site.raurl}}/B11.pdf) &nbsp; | Assignment support
 **12** | 04_Dec &nbsp; | Assignment support | Assignment support | Assignment support
 
@@ -142,7 +142,7 @@ the module; students will be required to:
   + to report on possible extensions to, and issues raised by, their work,
   + and to discuss relevant underlying OS theory. <br/> <br/>
 
-<!--<a class="btn btn-large btn-primary" href="{{site.raurl}}/assgn.pdf"><i class="icon-upload-alt"></i>Download Assignment Specification</a>-->
+<a class="btn btn-large btn-primary" href="{{site.raurl}}/assgn.pdf"><i class="icon-upload-alt"></i>Download Assignment Specification</a>
 
 Formative assessment comprises a variety of theoretical and practical
 exercises with opportunities for discussion with tutors and
@@ -184,8 +184,6 @@ point than the much-recommended Kernighan and Ritchie.
   - **[PRI02]** Prinz, P., [C Pocket Reference](http://www.amazon.co.uk/C-Pocket-Reference-Peter-Prinz/dp/0596004362/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1285570456&amp;sr=1-1), O'Reilly, 2002 <br/>
 A concise C reference. Very cheap. Less than a fiver the last time I
 looked. I suggest you buy a copy and read it from cover to cover.
-  - **[LOU03]** Loudon, K., [C++ Pocket Reference](http://www.amazon.co.uk/C-Pocket-Reference-Kyle-Loudon/dp/0596004966/ref=sr_1_7?ie=UTF8&qid=1442419113&sr=8-7&keywords=c%2B%2B), O'Reilly, 2003 <br/>
-You only need to know a little C++ for this module and this little book provides more than enough information.
   - [Essential C](http://cslibrary.stanford.edu/101/EssentialC.pdf), Parlante, N, Stanford University, 2003 <br/>
 A very good summary of the basic features of the C language.
   - [Learn C Programming](http://tutorialspoint.com/cprogramming/) <br/> A nice online C programming tutorial site.
