@@ -176,7 +176,7 @@ problems and their solution using semaphores.
 
 # Resources
 
-* **Programming in C/C++**
+* **Programming in C**
   - **[KOC04]** Kochan, S., [Programming in C](http://www.amazon.co.uk/Programming-Developers-Library-Stephen-Kochan/dp/0672326663/ref=sr_1_5?ie=UTF8&amp;qid=1316089219&amp;sr=8-5), Sams, 2004 <br/>
 A gentle introduction to programming in C. I think it's a better starting
 point than the much-recommended Kernighan and Ritchie.
@@ -192,6 +192,8 @@ An online course on C Programming from the University of Strathclyde.
   - [Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/index.htm) <br/> A detailed introduction to C from the MIT Open Courseware catalogue. If you skip the material on data structures and concurrency, you're left
 with a good basic introduction to C. The data structures and concurrency
 sections cover more advanced material.
+* **Standards**
+  - [The POSIX standard (POSIX.1-2008)](http://pubs.opengroup.org/onlinepubs/9699919799/)
 * **Git**
   - [Git home page](https://git-scm.com)
   - [Git official documentation](https://git-scm.com/doc)
@@ -199,6 +201,5 @@ sections cover more advanced material.
   - [15-minute tutorial in your browser](https://try.github.io)
   - [Video introduction](https://git-scm.com/videos)
   - [Student developer pack](https://education.github.com/pack) <br/> Get free
-    stuff from GitHub Education, including a GitHub account with unlimited
-    private repositories (normally 7$/month)
-
+  stuff from GitHub Education, including a GitHub account with unlimited
+  private repositories (normally 7$/month)
