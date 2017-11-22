@@ -119,7 +119,7 @@ change during the course of the module.
 **8** | 06-Nov &nbsp; | [Storage management&nbsp;2]({{site.raurl}}/A08.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 40](http://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf) | [Monitors with Mutexes and Condition Variables]({{site.raurl}}/B08.pdf) &nbsp; <br/> Reading: [AD-15 App. Monitors](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-monitors.pdf), SGG13 Chp. 5.8 | [Semaphores for synchronisation](L08.html)
 **9** | 13-Nov &nbsp; | [Protection and security&nbsp;1]({{site.raurl}}/A09.pdf) &nbsp; <br/> Reading: SGG13 Chp.&nbsp;14 | [Deadlock, Starvation]({{site.raurl}}/B09.pdf) &nbsp; <br/>Reading: [AD-15 Chp. 32](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf), SGG13 Chp. 7.1-7.4  | [Monitors for synchronisation](L09.html)
 **10** | 20-Nov &nbsp; | [Protection and security&nbsp;2]({{site.raurl}}/A10.pdf) &nbsp; | [Thread scheduling, Priority inversion]({{site.raurl}}/B10.pdf) &nbsp; | [Deadlock and starvation](L10.html)
-**11** | 27-Nov &nbsp; | [Inside the Linux Kernel]({{site.raurl}}/A11.pdf) &nbsp; | [Dynamic memory management]({{site.raurl}}/B11.pdf) &nbsp; | Assignment support
+**11** | 27-Nov &nbsp; | [Inside the Linux Kernel]({{site.raurl}}/A11.pdf) &nbsp; | [Dynamic memory management]({{site.raurl}}/B11.pdf) &nbsp; | [Thread scheduling, Mutex attributes](L11.html)
 **12** | 04_Dec &nbsp; | Assignment support | Assignment support | Assignment support
 
 <br/>
