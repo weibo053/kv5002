@@ -4,46 +4,37 @@ title: Home
 ---
 # Introduction
 
-
 <p class="lead">
-This module introduces the application and implementation of operating
-systems and the use of concurrency in systems programming. It presents
-fundamental concepts: processes, communication and synchronisation,
-and illustrates their implementation using a modern
-OS.
+Computer networks and operating systems deliver essential services for the
+Internet-enabled applications of the modern world.  Whether it's video
+streaming applications on your laptop, messaging apps on your smartphone or web
+servers in huge data centres, all rely on the services of an operating system
+and a computer network.
 </p>
 
 <img src="assets/images/kf5010_image.png" alt="KF5010 tools" class="img-responsive center-block"/>
 
+The security of your data has never been more important
+nor more threatened than it is today. This module will help you to understand
+the main ideas of networks and operating systems, and how to use their services
+to develop secure networked applications. You will be taught in well-equipped
+computing laboratories with modern operating systems and networks that you can
+investigate and experiment with. Your understanding of key concepts and your
+practical skills will be assessed by a single coursework assignment in which
+you will develop a networked application and demonstrate your critical
+understanding in a short report. This module will help you to develop a sound
+understanding of key concepts for the age of the Internet and will inform your
+thinking at every stage of your computing career.
 
-Students are given the opportunity to apply an OS in their own
-programs to solve a variety of problems. Additional topics such as
-memory management, file systems and security are required in the
-implementation of a full-scale OS and are investigated in this module.
-
-Lectures are the main vehicle for introducing fundamental concepts and
-principles and for providing context and motivation. Students will be
-expected to prepare for lecture topics and deepen their understanding
-of course material by studying course texts and technical
-literature. Seminars and laboratory sessions support the lecture
-programme by providing students with opportunities to identify and
-apply appropriate techniques for the application and implementation of
-a variety of OS services.
-
-
-Formative assessment will be provided in the form of small weekly
-exercises, mainly practical in nature and involving
-programming. Summative assessment is by way of a single piece of
-coursework comprising a programming assignment and a short report.
 
 # Module Team
 
 |   |    |
 |---|:---|
 |Module Tutor &nbsp;  | [David Kendall](http://computing.northumbria.ac.uk/staff/cgdk2)|
-|Lecturer      | [Michael Brockway](http://computing.northumbria.ac.uk/staff/cgmb3)|
 |Lecturer      | [Alun Moon](http://computing.northumbria.ac.uk/staff/cgam1)|
-|Lecturer      | [Nanlin Jin](https://www.northumbria.ac.uk/about-us/our-staff/j/nanlin-jin/)|
+|Lecturer      | [Kezhi Wang](https://sites.google.com/site/drkezhiwang/)|
+|Lecturer      | [Bo Wei](https://weibo053001.bitbucket.io/)|
 |TA      | [Ranjith Dinakaran](mailto:ranjith.dinakaran@northumbria.ac.uk)
 
 
@@ -52,16 +43,11 @@ coursework comprising a programming assignment and a short report.
 
 |   |    |
 |---|:---|
-**Lecture (Block A)** &nbsp;| Mon 12.00 - 13.00 LIP 031
-**Lecture (Block B)** | Tue 14.00 - 15.00 LIP 031
-**Lab/Seminar**       | Mon 09.00 - 11.00 PB S2
-**Lab/Seminar**       | Tue 09.00 - 11.00 PB S2
-**Lab/Seminar**       | Wed 09.00 - 11.00 PB S2
-**Lab/Seminar**       | Wed 11.00 - 15.00 PB S2
-**Lab/Seminar**       | Thu 12.00 - 14.00 PB S2
-**Lab/Seminar**       | Fri 09.00 - 11.00 PB S2
-**Lab/Seminar**       | Fri 11.00 - 13.00 PB S2
-**Lab/Seminar**       | Fri 15.00 - 17.00 PB S2
+**Lecture** &nbsp;    | Mon 15.00 - 16.00 WJN 002 (DK)
+**Lecture**           | Tue 10.00 - 11.00 WJN 002 (AM)
+**Lab/Seminar**       | Wed 09.00 - 11.00 CIS 202 (AM, KW)
+**Lab/Seminar**       | Wed 11.00 - 13.00 CIS 201 (AM, KW)
+**Lab/Seminar**       | Fri 11.00 - 13.00 CIS 201 (KW, BW)
 
 <p class="text-info">
 You should attend <em>both</em> lecture sessions and <em>one</em> of the
@@ -71,34 +57,58 @@ the lab session that you should attend.
 
 # Synopsis
 
+This module introduces you to the fundamentals of computer networks, security
+and operating systems, including: network architecture and the five-layer
+Internet protocol stack, processes/threads, inter-process communication, memory
+management, file systems, and operating systems and network security. You will
+study:
 
-The aim of the module is to introduce operating system concepts and
-the principles of concurrency, and to develop a practical
-understanding of their implementation and application in modern
-computing systems. Assessment is by course work.
+* network architecture: the five-layer Internet protocol stack (application,
+  transport, network, datalink, and physical layers), switching techniques
+  (e.g. circuit and packet), protocols (e.g. TCP, UDP, IP);
 
-On completion of this module, it is expected that students will be able to:
+* processes and threads: concepts, use and implementation, creation and
+  destruction, context switching, scheduling, synchronisation;
+
+* inter-process communication: shared memory, message passing, pipes, sockets; 
+
+* memory management: memory allocation schemes, paging, virtual memory;
+
+* file systems: file concept, file system structure and implementation,
+  directories, free space allocation;
+
+* operating system and network security: confidentiality, integrity,
+  availability, threats and attacks (e.g. denial of service, spoofing,
+  man-in-the-middle), access control, user authentication, cryptography for
+  data and network security, secure network protocols (e.g. TLS/SSL).
+
+<!--The aim of the module is to introduce operating system concepts and-->
+<!--the principles of concurrency, and to develop a practical-->
+<!--understanding of their implementation and application in modern-->
+<!--computing systems. Assessment is by course work.-->
+
+<!--On completion of this module, it is expected that students will be able to:-->
 
 
 
-1. Describe the architecture of an operating system (OS) and its
-services, and evaluate its use in a variety of scenarios.
+<!--1. Describe the architecture of an operating system (OS) and its-->
+<!--services, and evaluate its use in a variety of scenarios.-->
 
-2. Discuss the process model and the scheduling, IPC and
-synchronisation services provided by an OS and reason informally about
-the behaviour of a multitasking system under a variety of
-scheduling algorithms.
+<!--2. Discuss the process model and the scheduling, IPC and-->
+<!--synchronisation services provided by an OS and reason informally about-->
+<!--the behaviour of a multitasking system under a variety of-->
+<!--scheduling algorithms.-->
 
-3. Review the principal concepts and methods of memory management
-and file system implementation.
+<!--3. Review the principal concepts and methods of memory management-->
+<!--and file system implementation.-->
 
-4. Identify a variety of security threats and examine appropriate OS
-mechanisms to protect against them.
+<!--4. Identify a variety of security threats and examine appropriate OS-->
+<!--mechanisms to protect against them.-->
 
-5. Design, implement and evaluate solutions to problems of I/O
-device handling, synchronisation, communication and timing for
-multitasking systems, using appropriate OS services and concurrent
-programming techniques.
+<!--5. Design, implement and evaluate solutions to problems of I/O-->
+<!--device handling, synchronisation, communication and timing for-->
+<!--multitasking systems, using appropriate OS services and concurrent-->
+<!--programming techniques.-->
 
 # Teaching Plan
 
@@ -109,18 +119,18 @@ change during the course of the module.
 
 | Week   | W/c   | Lecture A   | Lecture B   | Practical   |
 | :----: | :---: | :---------: | :---------: | :---------: |
-**1** | 18-Sep &nbsp; | [Introduction and overview]({{site.raurl}}/A01.pdf) &nbsp; | [Introduction to Unix/Linux. Linux Command Line]({{site.raurl}}/B01.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.raurl}}/TLCL.pdf)| [Introduction to Lab environment and tools](L01.html)
-**2** | 25-Sep &nbsp; | [Process concept]({{site.raurl}}/A02.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 4](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)| [Shell scripts]({{site.raurl}}/B02.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 24, 25, 27]({{site.raurl}}/TLCL.pdf)| [Learning the Linux command line](L02.html)
-**3** | 02-Oct &nbsp; | [Process scheduling]({{site.raurl}}/A03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Linux processes]({{site.raurl}}/B03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Writing shell scripts](L03.html)
-**4** | 09-Oct &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [POSIX Threads: create, exit, join, self]({{site.raurl}}/B04.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 27.1-27.2](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [Shell functions. Working with processes](L04.html)
-**5** | 16-Oct &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A05.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 15](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf) | [Interference, Race Conditions, Mutual Exclusion]({{site.raurl}}/B05.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 26](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf) | [Using the POSIX Threads API: create, exit, join, self](L05.html)
-**6** | 23-Oct &nbsp; | [Memory management&nbsp;3]({{site.raurl}}/A06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 15](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf)| [POSIX semaphores]({{site.raurl}}/B06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 31](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf) | [Mutual exclusion (Busy Waiting), Speedup](L06.html)
-**7** | 30-Oct &nbsp; | [Storage management&nbsp;1]({{site.raurl}}/A07.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 39](http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) | [Classical problems of synchronisation: producer/consumer, readers/writers]({{site.raurl}}/B07.pdf) &nbsp; <br/> Reading: SGG13 Chp. 5.7| [Mutual exclusion (Semaphores), Amdahl's Law](L07.html) <br/> Introduction to the assignment
-**8** | 06-Nov &nbsp; | [Storage management&nbsp;2]({{site.raurl}}/A08.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 40](http://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf) | [Monitors with Mutexes and Condition Variables]({{site.raurl}}/B08.pdf) &nbsp; <br/> Reading: [AD-15 App. Monitors](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-monitors.pdf), SGG13 Chp. 5.8 | [Semaphores for synchronisation](L08.html)
-**9** | 13-Nov &nbsp; | [Protection and security&nbsp;1]({{site.raurl}}/A09.pdf) &nbsp; <br/> Reading: SGG13 Chp.&nbsp;14 | [Deadlock, Starvation]({{site.raurl}}/B09.pdf) &nbsp; <br/>Reading: [AD-15 Chp. 32](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf), SGG13 Chp. 7.1-7.4  | [Monitors for synchronisation](L09.html)
-**10** | 20-Nov &nbsp; | [Protection and security&nbsp;2]({{site.raurl}}/A10.pdf) &nbsp; | [Thread scheduling, Priority inversion]({{site.raurl}}/B10.pdf) &nbsp; | [Deadlock and starvation](L10.html)
-**11** | 27-Nov &nbsp; | [Inside the Linux Kernel]({{site.raurl}}/A11.pdf) &nbsp; | [Inside the Linux Kernel]({{site.raurl}}/B11.pdf) &nbsp; | [Thread scheduling, Mutex attributes](L11.html)
-**12** | 04_Dec &nbsp; | Assignment support | Assignment support | Assignment support
+**1** | 28-Jan &nbsp; | [Introduction and overview]({{site.baseurl}}{{site.raurl}}/01-1.pdf) (DK) &nbsp; | [Introduction to Unix/Linux. Linux Command Line]({{site.baseurl}}{{site.raurl}}/01-2.pdf) (DK) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)| [Introduction to Lab environment and tools](L01.html) (DK)
+**2** | 04-Feb &nbsp; | [C Programming]({{site.baseurl}}{{site.raurl}}/02-1.pdf) (AM) &nbsp; | [C Programming]({{site.baseurl}}{{site.raurl}}/02-2.pdf) (AM) &nbsp; | [Exercises in C Programming](L02.html) (AM)
+**3** | 11-Feb &nbsp; | [Process Concept and Process scheduling]({{site.baseurl}}{{site.raurl}}/03-1.pdf) (AM) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Linux processes]({{site.baseurl}}{{site.raurl}}/03-2.pdf) &nbsp; (DK) <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Working with processes](L03.html) (DK)
+**4** | 18-Feb &nbsp; | [Memory management&nbsp;1]({{site.baseurl}}{{site.raurl}}/04-1.pdf) (AM) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [POSIX Threads: create, exit, join, self]({{site.baseurl}}{{site.raurl}}/04-2.pdf) (DK) &nbsp; <br/> Reading: [AD-15 Chp. 27.1-27.2](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [Using the POSIX Threads API: create, exit, join, self](L05.html) (DK)
+**5** | 25-Feb &nbsp; | [Interference, Race Conditions, Mutual Exclusion]({{site.baseurl}}{{site.raurl}}/05-1.pdf) (DK) &nbsp; <br/> Reading: [A-D15 Chp. 26](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf) | [POSIX semaphores]({{site.baseurl}}{{site.raurl}}/05-2.pdf) (DK) &nbsp; <br/> Reading: [A-D15 Chp. 31](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf)  | [Mutual exclusion (Semaphores), Amdahl's Law](L05.html) (DK)
+**6** | 04-Mar &nbsp; | [Storage management&nbsp;1]({{site.baseurl}}{{site.raurl}}/06-1.pdf) (AM) &nbsp; <br/> Reading: [AD-15 Chp. 39](http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf)| [Storage management&nbsp;2]({{site.baseurl}}{{site.raurl}}/06-2.pdf) (AM) &nbsp; <br/> Reading: [AD-15 Chp. 40](http://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf) | [Working with Files](L06.html) (AM)
+**7** | 11-Mar &nbsp; | [Transport Layer: TCP]({{site.baseurl}}{{site.raurl}}/07-1.pdf) (DK) | [Socket API: TCP]({{site.baseurl}}{{site.raurl}}/07-2.pdf) (AM) &nbsp; |  [TCP: Client/Server](L07.html) (AM) <br/> Introduction to the assignment
+**8** | 18-Mar &nbsp; | [Transport Layer: UDP]({{site.baseurl}}{{site.raurl}}/08-1.pdf) (DK) | [Transport Layer: UDP]({{site.baseurl}}{{site.raurl}}/08-2.pdf) (AM) &nbsp; | [Communicating with UDP](L08.html) (AM)
+**9** | 25-Mar &nbsp; | [Network Layer: IP Addressing]({{site.baseurl}}{{site.raurl}}/09-1.pdf) (DK) | [Network Layer: Routing]({{site.baseurl}}{{site.raurl}}/09-2.pdf) (DK) | [Addressing and Routing exercises](L09.html) (DK)
+**10** | 01-Apr &nbsp; | [Application Layer]({{site.baseurl}}{{site.raurl}}/10-1) (AM) &nbsp; | [Physical and Link Layers]({{site.baseurl}}{{site.raurl}}/10-2.pdf) (AM) &nbsp; | [Networking Lab](L10.html) (AM)
+**11** | 29-Apr &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/11-1.pdf) (DK) &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/11-2.pdf) (DK) &nbsp; | Assignment support
+**12** | 06-May &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/12-1.pdf) (DK) &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/12-2.pdf) (DK) &nbsp; | Assignment support
 
 <br/>
 
@@ -133,24 +143,50 @@ this module.
 </p>
 
 # Assessment
+Summative assessment comprises a single coursework assignment. You will be required to develop a networked application program and to write a short report (~1000-1500 words), demonstrating your critical understanding of the work done and of fundamental principles and concepts, using your own research of the academic and technical literature where appropriate.
 
-Summative assessment comprises:
+Allocation of marks for the assignment will be as follows:
+    • Program functionality and code quality: 30%
+    • Critical understanding of program as demonstrated in report: 20%
+    • Understanding of principles and concepts demonstrated in report: 50%
 
-* a single course work assignment undertaken in the last 4/5 weeks of
-the module; students will be required to:
-  + implement a simple application, making use of operating system services,
-  + to report on possible extensions to, and issues raised by, their work,
-  + and to discuss relevant underlying OS theory. <br/> <br/>
+The assignment is entirely individual work and assesses all module learning
+outcomes:
 
-<a class="btn btn-large btn-primary" href="{{site.raurl}}/assgn.pdf"><i class="icon-upload-alt"></i>Download Assignment Specification</a>
+Knowledge & Understanding: 
+
+1. Demonstrate knowledge and critical understanding of networking fundamentals,
+   including network architecture and protocols.
+
+2. Demonstrate knowledge and critical understanding of the fundamentals of an
+   operating system, including its architecture and the implementation of its
+   services.
+
+3. Demonstrate knowledge and critical understanding of operating systems and
+   network security, including fundamental concepts, threats, attacks and basic
+   techniques for defence.
+
+Intellectual / Professional skills & abilities:
+
+4. Interpret a requirements specification to design and develop a networked
+   application program, using standard operating systems and networking APIs
+   (e.g. POSIX.1-2008), and demonstrating cognisance of security issues and
+   industry best practice.
+
+Personal Values Attributes (Global / Cultural awareness, Ethics, Curiosity) (PVA):
+
+5. Communicate the results of work/study reliably and accurately.
+
+<!--<a class="btn btn-large btn-primary" href="{{site.baseurl}}{{site.raurl}}/assgn.pdf"><i class="icon-upload-alt"></i>Download Assignment Specification</a>-->
+
 
 Formative assessment comprises a variety of theoretical and practical
 exercises with opportunities for discussion with tutors and
 colleagues.
 
 Feedback on formative assessment will be given during the seminar and
-laboratory sessions. Additionally, email will be used
-for more formal feedback on summative assessment.
+laboratory sessions. Formal written feedback will be provided on the
+assignment. 
 
 # Recommended Reading
 
@@ -169,10 +205,10 @@ G., [Operating System Concepts](https://www.amazon.co.uk/Operating-System-Concep
   - **[A-D15]** Arpaci-Dusseau, R. and Arpaci-Dusseau, A., [Operating systems: Three easy pieces](http://www.ostep.org), Arpaci-Dusseau Books, 2015
 
   - **[DOW08]** Downey, A., [The Little Book of
-Semaphores](http://www.greenteapress.com/semaphores/) ([Local copy]({{site.raurl}}/downey08semaphores.pdf)), Green Tea Press, 2002 <br/> A free text book by Allen Downey that introduces a variety of interesting synchronisation
+Semaphores](http://www.greenteapress.com/semaphores/) ([Local copy]({{site.baseurl}}{{site.raurl}}/downey08semaphores.pdf)), Green Tea Press, 2002 <br/> A free text book by Allen Downey that introduces a variety of interesting synchronisation
 problems and their solution using semaphores.
 
-  - **[SHO16]** Shotts. W., [The Linux Command Line](http://linuxcommand.org/tlcl.php) ([Local copy]({{site.raurl}}/TLCL.pdf)), No Starch Press, 2016 <br/> A free text book by William Shotts on using the Linux command line.
+  - **[SHO16]** Shotts. W., [The Linux Command Line](http://linuxcommand.org/tlcl.php) ([Local copy]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)), No Starch Press, 2016 <br/> A free text book by William Shotts on using the Linux command line.
 
 # Resources
 
@@ -186,7 +222,7 @@ looked. I suggest you buy a copy and read it from cover to cover.
   - **[BBD91]**  Banahan, M., Brady, D.  and Doran, M., [The C Book](http://publications.gbdirect.co.uk/c_book/), Currently out of print, 1991. <br/>
 Although this book is no longer in print, it remains a good introduction to the C language.
 There's a [free pdf version](http://publications.gbdirect.co.uk/c_book/thecbook.pdf)
-available ([local copy]({{site.baseurl}}/{{site.raurl}}/thecbook.pdf)).
+available ([local copy]({{site.baseurl}}/{{site.baseurl}}{{site.raurl}}/thecbook.pdf)).
   - [Essential C](http://cslibrary.stanford.edu/101/EssentialC.pdf), Parlante, N, Stanford University, 2003 <br/>
 A very good summary of the basic features of the C language.
   - [Learn C Programming](http://tutorialspoint.com/cprogramming/) <br/> A nice online C programming tutorial site.
