@@ -12,7 +12,7 @@ servers in huge data centres, all rely on the services of an operating system
 and a computer network.
 </p>
 
-<img src="assets/images/kf5010_image.png" alt="KF5010 tools" class="img-responsive center-block"/>
+<img src="assets/images/kv5002.png" alt="KV5002 image" class="img-responsive center-block"/>
 
 The security of your data has never been more important
 nor more threatened than it is today. This module will help you to understand
