@@ -43,8 +43,8 @@ thinking at every stage of your computing career.
 
 |   |    |
 |---|:---|
-**Lecture** &nbsp;    | Mon 15.00 - 16.00 WJN 002 (DK)
-**Lecture**           | Tue 10.00 - 11.00 WJN 002 (AM)
+**Lecture** &nbsp;    | Mon 15.00 - 16.00 WJN 002 (DK/AM)
+**Lecture**           | Tue 10.00 - 11.00 WJN 002 (DK/AM)
 **Lab/Seminar**       | Wed 09.00 - 11.00 CIS 202 (AM, KW)
 **Lab/Seminar**       | Wed 11.00 - 13.00 CIS 201 (AM, KW)
 **Lab/Seminar**       | Fri 11.00 - 13.00 CIS 201 (KW, BW)
@@ -117,7 +117,7 @@ this part of the module for this year. These arrangements are subject to
 change during the course of the module.
 
 
-| Week   | W/c   | Lecture A   | Lecture B   | Practical   |
+| Week   | W/c   | Lecture 1   | Lecture 2   | Practical   |
 | :----: | :---: | :---------: | :---------: | :---------: |
 **1** | 28-Jan &nbsp; | [Introduction and Overview]({{site.baseurl}}{{site.raurl}}/01-1.pdf) (DK) &nbsp; | [Introduction to Unix/Linux. Linux Command Line]({{site.baseurl}}{{site.raurl}}/01-2.pdf) (DK) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)| [Introduction to Lab Environment and Tools](L01.html) (DK)
 **2** | 04-Feb &nbsp; | [C Programming]({{site.baseurl}}{{site.raurl}}/02-1.pdf) (AM) &nbsp; | [C Programming]({{site.baseurl}}{{site.raurl}}/02-2.pdf) (AM) &nbsp; | [Exercises in C Programming](L02.html) (AM)
@@ -192,7 +192,7 @@ assignment.
 
 There is no essential textbook for this module. [SGG13] is an excellent
 introduction to operating systems in general and can be used to supplement the
-slides for the Lecture A stream of the module. [A-D15] also covers much of this
+slides for the lectures. [A-D15] also covers much of this
 material and has the advantage of being available *free online*.  The other
 recommended books and papers give useful information on parts of the syllabus
 only.
