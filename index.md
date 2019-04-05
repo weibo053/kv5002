@@ -102,7 +102,7 @@ change during the course of the module.
 **9** | 25-Mar &nbsp; | [Network Layer: Data plane]({{site.baseurl}}{{site.raurl}}/09-1.pdf) (DK) | [Network Layer: Control plane]({{site.baseurl}}{{site.raurl}}/09-2.pdf) (DK) | [Network Layer exercises](L09.html) (DK)
 **10** | 01-Apr &nbsp; | [Application Layer]({{site.baseurl}}{{site.raurl}}/10-1) (AM) &nbsp; | [Physical and Link Layers]({{site.baseurl}}{{site.raurl}}/10-2.pdf) (AM) &nbsp; | [Networking Lab](L10.html) (AM)
 **11** | 29-Apr &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/11-1.pdf) (DK) &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/11-2.pdf) (DK) &nbsp; | Assignment support
-**12** | 06-May &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/12-1.pdf) (DK) &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/12-2.pdf) (DK) &nbsp; | Assignment support
+**12** | 06-May &nbsp; | Bank Holiday - No lecture &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/12-2.pdf) (DK) &nbsp; | Assignment support
 
 <br/>
 
