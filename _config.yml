@@ -1,10 +1,15 @@
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: rouge
+
 kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+
+asciidoctor:
+  attributes:
+    source-highlighter: rouge
 
 title: KV5002
 subtitle: Computer Networks, Security, and Operating Systems
