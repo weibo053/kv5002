@@ -1,0 +1,97 @@
+= Sample Page
+:page-layout: default
+//:page-permalink: /sample/
+:uri-asciidoctor: http://asciidoctor.org
+:imagesdir: ./assets/images
+:icons: font
+
+== Introduction
+This is a sample page composed in AsciiDoc.
+Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].
+
+[source,ruby]
+puts "Hello, World!"
+
+image::L01-F02.png[virtualbox]
+
+[source,sh]
+$ ls -l ~/courses/content/kv5002
+
+Further text
+
+[source,c]
+----
+#include <stdio.h>
+
+int main() {
+    printf("Hello world!\n");
+    return 0;
+}
+----
+And some more text with a list
+
+. This could be an exercise with some code
++
+[source,c]
+----
+#include <stdio.h>
+
+int main() {
+    printf("Hello world!\n");
+    return 0;
+}
+----
+. And the next list item
+.. and a nested list item with some code
++
+[source,ruby]
+puts "Hello, World!"
+
+And then some more text
+
+WARNING: Please be careful!
+
+[IMPORTANT]
+.Feeding the werewolves
+====
+While werewolves are hardy community members, keep in mind
+
+. They are allergic to cinnamon
+. And other things
+====
+
+TIP: Keep your pecker up
+
+CAUTION: This floor is wet.
+
+NOTE: These are all known as *admonition* blocks.
+
+* Item 1
+* Item 2
+* Item 3
+
+[quote, William Shakespeare]
+____
+Now is the winter of our discontent
+
+Made glorious summer by this Son of York
+____
+
+"I hold it that a little rebellion now and then is a good thing,
+and as necessary in the political world as storms in the physical."
+-- Thomas Jefferson, Papers of Thomas Jefferson: Volume 11
+
+[quote, David Kendall]
+There's something funny going on!
+
+[source,ruby]
+----
+require 'sinatra' <1>
+
+get '/hi' do <2> <3>
+  "Hello World!"
+end
+----
+<1> Library import
+<2> URL mapping
+<3> Response block

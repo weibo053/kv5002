@@ -82,34 +82,6 @@ study:
   man-in-the-middle), access control, user authentication, cryptography for
   data and network security, secure network protocols (e.g. TLS/SSL).
 
-<!--The aim of the module is to introduce operating system concepts and-->
-<!--the principles of concurrency, and to develop a practical-->
-<!--understanding of their implementation and application in modern-->
-<!--computing systems. Assessment is by course work.-->
-
-<!--On completion of this module, it is expected that students will be able to:-->
-
-
-
-<!--1. Describe the architecture of an operating system (OS) and its-->
-<!--services, and evaluate its use in a variety of scenarios.-->
-
-<!--2. Discuss the process model and the scheduling, IPC and-->
-<!--synchronisation services provided by an OS and reason informally about-->
-<!--the behaviour of a multitasking system under a variety of-->
-<!--scheduling algorithms.-->
-
-<!--3. Review the principal concepts and methods of memory management-->
-<!--and file system implementation.-->
-
-<!--4. Identify a variety of security threats and examine appropriate OS-->
-<!--mechanisms to protect against them.-->
-
-<!--5. Design, implement and evaluate solutions to problems of I/O-->
-<!--device handling, synchronisation, communication and timing for-->
-<!--multitasking systems, using appropriate OS services and concurrent-->
-<!--programming techniques.-->
-
 # Teaching Plan
 
 The following is a *provisional* guide to the organisation of
@@ -122,15 +94,15 @@ change during the course of the module.
 **1** | 28-Jan &nbsp; | [Introduction and Overview]({{site.baseurl}}{{site.raurl}}/01-1.pdf) (DK) <br/> Reading: [A-D15 Chp. 1](http://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf) &nbsp; | [Introduction to Unix/Linux. Linux Command Line]({{site.baseurl}}{{site.raurl}}/01-2.pdf) (DK) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)| [Introduction to Lab Environment and Tools](L01.html) (DK)
 **2** | 04-Feb &nbsp; | [C Programming]({{site.baseurl}}{{site.raurl}}/02-1.pdf) (AM) &nbsp; | [C Programming]({{site.baseurl}}{{site.raurl}}/02-2.pdf) (AM) &nbsp; | [Exercises in C Programming](L02.html) (AM)
 **3** | 11-Feb &nbsp; | [Process Concept and Process scheduling]({{site.baseurl}}{{site.raurl}}/03-1.pdf) (AM) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Linux Processes]({{site.baseurl}}{{site.raurl}}/03-2.pdf) &nbsp; (DK) <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Working with Processes](L03.html) (DK)
-**4** | 18-Feb &nbsp; | [Memory Management&nbsp;1]({{site.baseurl}}{{site.raurl}}/04-1.pdf) (AM) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [POSIX Threads: create, exit, join, self]({{site.baseurl}}{{site.raurl}}/04-2.pdf) (DK) &nbsp; <br/> Reading: [AD-15 Chp. 27.1-27.2](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [Using the POSIX Threads API: create, exit, join, self](L05.html) (DK)
+**4** | 18-Feb &nbsp; | [Memory Management&nbsp;1]({{site.baseurl}}{{site.raurl}}/04-1.pdf) (AM) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [POSIX Threads: create, exit, join, self]({{site.baseurl}}{{site.raurl}}/04-2.pdf) (DK) &nbsp; <br/> Reading: [AD-15 Chp. 27.1-27.2](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [Using the POSIX Threads API: create, exit, join, self](L04.html) (DK)
 **5** | 25-Feb &nbsp; | [Interference, Race Conditions, Mutual Exclusion]({{site.baseurl}}{{site.raurl}}/05-1.pdf) (DK) &nbsp; <br/> Reading: [A-D15 Chp. 26](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf) | [POSIX Semaphores]({{site.baseurl}}{{site.raurl}}/05-2.pdf) (DK) &nbsp; <br/> Reading: [A-D15 Chp. 31](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf)  | [Using Semaphores](L05.html) (DK)
-**6** | 04-Mar &nbsp; | [Storage Management&nbsp;1]({{site.baseurl}}{{site.raurl}}/06-1.pdf) (AM) &nbsp; <br/> Reading: [AD-15 Chp. 39](http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf)| [Storage Management&nbsp;2]({{site.baseurl}}{{site.raurl}}/06-2.pdf) (AM) &nbsp; <br/> Reading: [AD-15 Chp. 40](http://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf) | [Working with Files](L06.html) (AM)
-**7** | 11-Mar &nbsp; | [Transport Layer: TCP]({{site.baseurl}}{{site.raurl}}/07-1.pdf) (DK) | [Socket API: TCP]({{site.baseurl}}{{site.raurl}}/07-2.pdf) (AM) &nbsp; |  [TCP: Client/Server](L07.html) (AM) <br/> Introduction to the assignment
-**8** | 18-Mar &nbsp; | [Transport Layer: UDP]({{site.baseurl}}{{site.raurl}}/08-1.pdf) (DK) | [Transport Layer: UDP]({{site.baseurl}}{{site.raurl}}/08-2.pdf) (AM) &nbsp; | [Communicating with UDP](L08.html) (AM)
-**9** | 25-Mar &nbsp; | [Network Layer: IP Addressing]({{site.baseurl}}{{site.raurl}}/09-1.pdf) (DK) | [Network Layer: Routing]({{site.baseurl}}{{site.raurl}}/09-2.pdf) (DK) | [Addressing and Routing](L09.html) (DK)
+**6** | 04-Mar &nbsp; | [Storage Management&nbsp;1]({{site.baseurl}}{{site.raurl}}/06-1.pdf) (AM) &nbsp; <br/> Reading: [AD-15 Chp. 39](http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf)| [Storage Management&nbsp;2]({{site.baseurl}}{{site.raurl}}/06-2.pdf) (AM) &nbsp; <br/> Reading: [AD-15 Chp. 40](http://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf) | [Working with Files](L06.html) (AM) <br/> Introduction to the assignment
+**7** | 11-Mar &nbsp; | [Transport Layer]({{site.baseurl}}{{site.raurl}}/07-1.pdf) (DK) | [Socket API: TCP]({{site.baseurl}}{{site.raurl}}/07-2.pdf) (AM) &nbsp; |  [TCP: Client/Server](L07.html) (AM) 
+**8** | 18-Mar &nbsp; | [Transport Layer (ctd.)]({{site.baseurl}}{{site.raurl}}/08-1.pdf) (DK) | [Socket API: UDP]({{site.baseurl}}{{site.raurl}}/08-2.pdf) (AM) &nbsp; | [Communicating with UDP](L08.html) (AM)
+**9** | 25-Mar &nbsp; | [Network Layer: Data plane]({{site.baseurl}}{{site.raurl}}/09-1.pdf) (DK) | [Network Layer: Control plane]({{site.baseurl}}{{site.raurl}}/09-2.pdf) (DK) | [Network Layer exercises](L09.html) (DK)
 **10** | 01-Apr &nbsp; | [Application Layer]({{site.baseurl}}{{site.raurl}}/10-1) (AM) &nbsp; | [Physical and Link Layers]({{site.baseurl}}{{site.raurl}}/10-2.pdf) (AM) &nbsp; | [Networking Lab](L10.html) (AM)
 **11** | 29-Apr &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/11-1.pdf) (DK) &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/11-2.pdf) (DK) &nbsp; | Assignment support
-**12** | 06-May &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/12-1.pdf) (DK) &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/12-2.pdf) (DK) &nbsp; | Assignment support
+**12** | 06-May &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/11-1.pdf) (DK) <br/> (Lecture on Tue @ 09.00 to accommodate Bank Holiday) &nbsp; | [Security]({{site.baseurl}}{{site.raurl}}/12-2.pdf) (DK) &nbsp; | Assignment support
 
 <br/>
 
@@ -177,7 +149,7 @@ Personal Values Attributes (Global / Cultural awareness, Ethics, Curiosity) (PVA
 
 5. Communicate the results of work/study reliably and accurately.
 
-<!--<a class="btn btn-large btn-primary" href="{{site.baseurl}}{{site.raurl}}/assgn.pdf"><i class="icon-upload-alt"></i>Download Assignment Specification</a>-->
+<a class="btn btn-large btn-primary" href="{{site.baseurl}}{{site.raurl}}/assgn.pdf"><i class="icon-upload-alt"></i>Download Assignment Specification</a>
 
 
 Formative assessment comprises a variety of theoretical and practical
@@ -224,11 +196,11 @@ looked. I suggest you buy a copy and read it from cover to cover.
   - **[BBD91]**  Banahan, M., Brady, D.  and Doran, M., [The C Book](http://publications.gbdirect.co.uk/c_book/), Currently out of print, 1991. <br/>
 Although this book is no longer in print, it remains a good introduction to the C language.
 There's a [free pdf version](http://publications.gbdirect.co.uk/c_book/thecbook.pdf)
-available ([local copy]({{site.baseurl}}/{{site.baseurl}}{{site.raurl}}/thecbook.pdf)).
+available ([local copy]({{site.baseurl}}{{site.raurl}}/thecbook.pdf)).
   - [Essential C](http://cslibrary.stanford.edu/101/EssentialC.pdf), Parlante, N, Stanford University, 2003 <br/>
 A very good summary of the basic features of the C language.
   - [Learn C Programming](http://tutorialspoint.com/cprogramming/) <br/> A nice online C programming tutorial site.
-  - [C Programming](http://www.imada.sdu.dk/~svalle/courses/dm14-2005/mirror/c/) <br/>
+  - [C Programming](http://kom.aau.dk/~jdn/edu/doc/c/tutorials/c-course-strathclyde/) <br/>
 An online course on C Programming from the University of Strathclyde.
   - [Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/index.htm) <br/> A detailed introduction to C from the MIT Open Courseware catalogue. If you skip the material on data structures and concurrency, you're left
 with a good basic introduction to C. The data structures and concurrency
